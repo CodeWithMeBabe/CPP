@@ -5,7 +5,7 @@ int main(){
     cout<<"Enter number of rows: ";
     cin>>rows;
     int count=1;
-    cout<<"Triangle pattern with reverse number : "<<endl;
+    cout<<"Triangle pattern with increasing number : "<<endl;
     for(int i=1;i<=rows;i++){
         for(int j=i; j>=1;j--){
             cout<<count<<" ";
